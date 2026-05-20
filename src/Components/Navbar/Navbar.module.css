@@ -1,0 +1,71 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background: #000000; /* dark professional color */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(215, 206, 206, 0.2);
+   
+}
+
+/* Logo */
+
+.Logo img {
+  height: 100px;
+  width: 120px;
+  background-color: black;
+
+}
+
+/* Menu container */
+.menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  background: #030917; 
+}
+
+/* NavLink base style */
+.link {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative; 
+  background: #030917; 
+  color: white;
+}
+
+
+
+/* underline animation */
+.link:hover {
+   transform: translateY(-3px);
+   font-size: 28px;
+   color: yellow;
+  transition: 0.3s ease-in-out;
+  
+}
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .Header {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+}
+

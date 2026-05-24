@@ -226,3 +226,110 @@
   box-shadow:
   0 10px 20px rgba(56, 189, 248, 0.3);
 }
+
+
+
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 768px){
+
+  .projectPage{
+    padding: 40px 5%;
+  }
+
+  .projectPage h1{
+    font-size: 45px;
+  }
+
+  .projectsIntro{
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .projectSection h2{
+    font-size: 32px;
+  }
+
+  .projectCard{
+    padding: 22px;
+  }
+
+  .projectCard h3{
+    font-size: 22px;
+  }
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width: 480px){
+
+  .projectPage{
+    padding: 30px 4%;
+  }
+
+  .projectPage h1{
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  .projectPage h1:hover{
+    transform: translateX(10px);
+  }
+
+  .projectsIntro{
+    font-size: 15px;
+    line-height: 1.5;
+
+    margin-bottom: 60px;
+  }
+
+  .projectSection{
+    margin-bottom: 70px;
+  }
+
+  .projectSection h2{
+    font-size: 24px;
+  }
+
+  .projectSection h2:hover{
+    transform: translateX(8px);
+  }
+
+  .projectCards{
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .projectCard{
+    padding: 18px;
+  }
+
+  .projectCard h3{
+    font-size: 20px;
+  }
+
+  .projectCard p{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .techStack span{
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .projectLinks{
+    justify-content: center;
+  }
+
+  .projectLinks a{
+    width: 100%;
+    text-align: center;
+
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}

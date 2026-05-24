@@ -1,6 +1,6 @@
 .contactSection {
   min-height: 100vh;
-  margin-left: 120px;
+  margin-left: 80px;
   margin-top: 20px;
   padding: 20px 10%;
   color: white;
@@ -62,4 +62,68 @@
   transform: translateX(20px);
   font-size: 21px;
   color: yellow;
+}
+
+
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 768px){
+
+  .contactSection{
+    padding: 40px 10px;
+  }
+
+  .contactSection h1{
+    font-size: 48px;
+  }
+
+  .contactSection p{
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .contactInfo h3{
+    font-size: 22px;
+  }
+
+  .contactInfo a{
+    font-size: 18px;
+  }
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width: 480px){
+
+  .contactSection{
+    padding: 30px 10px;
+  }
+
+  .contactSection h1{
+    font-size: 34px;
+  }
+
+  .contactSection h1:hover{
+    transform: translateX(10px);
+  }
+
+  .contactSection p{
+    font-size: 15px;
+    line-height: 1.5;
+
+    margin-bottom: 35px;
+  }
+
+  .contactInfo h3{
+    font-size: 20px;
+  }
+
+  .contactInfo a{
+    font-size: 16px;
+
+    word-break: break-word;
+  }
 }

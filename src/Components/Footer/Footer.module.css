@@ -3,7 +3,7 @@
     flex-direction: row;
     margin-top: 100px;
     margin-bottom: -7px;
-    gap: 150px;
+    gap: 120px;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -47,4 +47,52 @@
      letter-spacing: 0.6px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      
+}
+
+
+/* Mobile Devices */
+/* ========================= */
+
+@media (max-width: 768px){
+
+    .Footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 35px 15px;
+    }
+
+    .D1{
+        font-size: 22px;
+    }
+
+    .Copyright{
+        font-size: 16px;
+    }
+
+    .Link{
+        font-size: 16px;
+    }
+}
+
+/* Small Mobile Devices */
+/* ========================= */
+
+@media (max-width: 480px){
+
+    .Footer{
+        padding: 25px 10px;
+    }
+
+    .D1{
+        font-size: 20px;
+    }
+
+    .Copyright{
+        font-size: 14px;
+    }
+
+    .Link{
+        font-size: 14px;
+    }
 }
